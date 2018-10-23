@@ -8,10 +8,17 @@
 body{
     box-sizing: border-box;
 }
+#logo{
+    margin-top: 16vh;
+}
+.menuLogo{
+    font-size: 3em;
+    color: rgba(255,255,255,.3);
+}
 #navBar{
     position: fixed;
     z-index: 20;
-    background-color: rgba(139, 69, 19, .5);
+    /*background-color: rgba(139, 69, 19, .5);*/
     width: 100vw;
     height: 10vh;
     display: flex;
@@ -20,6 +27,9 @@ body{
 .littlePartNavBar{
     width: 5vw;
     height: 10vh;
+    margin-right: 4vw;
+    margin-top: 7vh;
+
 }
 header {
     height: 100vh;
@@ -57,7 +67,26 @@ width: 100%;
     margin-left: 2vw;
 }
 
-.flecheUp{
+.flecheUpSigil{
  color: white;
-    font-size: 3em;
+    font-size: 2.5em;
+    margin-bottom: 1vh;
+}
+.contactSigil{
+    color: white;
+    font-size: 2em;
+}
+.contentBox{
+    background-color: antiquewhite;
+    margin: 0;
+}
+
+.justifyLeftDescText{
+    width:30vw;
+    height: 80vh;
+    padding: 10vw 60vh 10vw 10vh;
+}
+p{
+    margin: 0;
+    margin-block: 0;
 }
